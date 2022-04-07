@@ -2,7 +2,7 @@ FROM alpine:3.13.1
 
 MAINTAINER Amit <amitmmc1@gmail.com>
 
-# Use docker build --pull -t 2stacks/freeradius .
+# Use docker build --pull -t amitmmc1/freeradius:7Apr2022 .
 
 
 RUN apk --update add freeradius freeradius-mysql freeradius-eap openssl
